@@ -37,8 +37,15 @@ header {
     font-weight: 700;
     line-height: 80px;
     color: white;
-    padding: 0 20px;
+    padding: 0 5px;
     letter-spacing: 1px;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-left: 20px;
 }
 
 nav {
@@ -120,14 +127,11 @@ nav a {
     nav li {
         display: block;
     }
-
    
-
     #menu {
         font-size: 90%;
     }
 
-   
     #menu a:hover, .active  {
         background: none;
         color: #32DDCA;
