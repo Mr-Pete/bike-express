@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Nunito:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body {
+    font-family: Algreya, sans-serif;
+    font-weight: 300;
+    color: black;    
+}
+
+/* headings */
+
+h1, h2 {
+    font-family: Nunito, sans-serif;
+    font-weight: 400;
+    letter-spacing: 4px;
+    color: black;
+    text-transform: uppercase;
+} 
+
+/* header */
+
+header {
+    background-color: #501122;
+    letter-spacing: 1px;
+}
+
+
+/* navigation and logo */
+
+.logo {
+    font-size: 200%;
+    font-weight: 700;
+    line-height: 80px;
+    color: white;
+    padding: 0 20px;
+    letter-spacing: 1px;
+}
+
+nav {
+    font-size: 120%;
+    list-style-type: none;
+    height: 80px;
+    width: 100%;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+   
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+
+#menu a:hover {
+    background-color: #7D5E25
+}
+
+.active {
+    background-color: #7D5E25
+}
+
+.checkbtn {
+    font-size: 120%;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+/* Media queries */
+
+@media (max-width: 985px) {
+    .logo {
+        font-size: 150%;
+        padding-left: 20px;
+    }
+
+    #menu {
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 850px) {
+    .checkbtn {
+        display: block;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #6E3521;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s; 
+    }
+    
+    nav li {
+        display: block;
+    }
+
+   
+
+    #menu {
+        font-size: 90%;
+    }
+
+   
+    #menu a:hover, .active  {
+        background: none;
+        color: #32DDCA;
+    }
+    
+    #check:checked ~ ul {
+        left: 0;
+    }
+}
