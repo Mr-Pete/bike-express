@@ -158,6 +158,21 @@ video {
     background-color: #FFE3EA;
 }
 
+#about h2 {
+    font-weight: bold;
+    font-size: 150%;
+    margin: 5px 0;
+    text-align: center;
+}
+
+#about p {
+    font-size: 120%;
+    border: 10px solid #7D5E25;
+    border-radius: 10px;   
+    padding: 10px;
+    margin-top: 10px;
+}
+
 .about-left {
     padding-top: 30px;
     width: 33%;
@@ -231,6 +246,7 @@ video {
     justify-content: center;
     width: 50%;
     margin: 0 auto;
+    line-height: 20px;
 
 }
 
@@ -238,6 +254,31 @@ video {
 
 #contact {
     height: 600px;
+}
+
+/* Footer */
+
+footer{
+    height: 100px;
+    background: #501122;
+    text-align: center;
+    width: 100%;
+    color: #f1f1f1;
+}
+
+.social li{
+    display: inline;
+}
+
+.social i{
+    font-size: 200%;
+    color: #f1f1f1;
+    margin: 10px 20px;
+   }
+
+footer p {
+    font-size: 120%;
+    margin-top: 1%;
 }
 
 /* Media queries */
