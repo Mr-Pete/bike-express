@@ -197,6 +197,48 @@ video {
     padding-top: 30px;  
 }
 
+/* Services */
+
+#services {
+    height: 600px;
+    background: url("../images/bike-bag.jpg") top center / cover no-repeat fixed;
+    overflow: hidden;
+    width: 100%;
+         
+}
+
+#services div {
+    color: #f1f1f1;
+    background-color: rgba(0,0,0, .7); 
+    width: 25%;
+    height: 600px;
+    float: left;
+    padding: 100px 0 0 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#services h2 {
+    color: #f1f1f1;
+    font-weight: bold;
+    font-size: 150%;
+    margin: 5px 0;
+}
+
+#services p {
+    font-size: 120%;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+/* Contact */
+
+#contact {
+    height: 600px;
+}
 
 /* Media queries */
 
