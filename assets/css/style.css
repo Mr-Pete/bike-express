@@ -10,7 +10,8 @@
 body {
     font-family: Algreya, sans-serif;
     font-weight: 300;
-    color: black;    
+    color: black; 
+    background-color: #FFF6F8;  
 }
 
 /* headings */
@@ -155,7 +156,7 @@ video {
 
 #about {
     height: 600px;
-    background-color: #FFE3EA;
+    
 }
 
 #about h2 {
@@ -163,24 +164,21 @@ video {
     font-size: 150%;
     margin: 5px 0;
     text-align: center;
+    padding: 5px;
 }
 
 #about p {
     font-size: 120%;
-    border: 10px solid #7D5E25;
-    border-radius: 10px;   
-    padding: 10px;
-    margin-top: 10px;
+    padding: 0 8px 8px 8px;
 }
 
 .about-left {
-    padding-top: 30px;
+    
     width: 33%;
     float: left;
 }
 
 .about-right {
-    padding-top: 30px;
     width: 33%;
     float: right;
 }
@@ -209,7 +207,32 @@ video {
     width: 60%;
     line-height: 20px;
     margin: 0 auto; 
-    padding-top: 30px;  
+     
+}
+
+
+
+.img-who {
+    background: url("../images/who-we-are.jpg") center center / cover no-repeat;
+    height: 300px;
+    width: 100%;  
+}
+
+.img-values {
+    background: url("../images/our-values.jpg") center center / cover no-repeat;
+    height: 300px;
+    width: 100%;  
+}
+
+.img-mission {
+    background: url("../images/our-mission.jpg") center center / cover no-repeat;
+    height: 300px;
+    width: 100%;  
+}
+
+.shadow {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* Services */
