@@ -16,7 +16,7 @@ body {
 
 /* headings */
 
-h1, h2 {
+h1, h2, h3 {
     font-family: Nunito, sans-serif;
     font-weight: 400;
     letter-spacing: 4px;
@@ -216,24 +216,29 @@ video {
     background: url("../images/who-we-are.jpg") center center / cover no-repeat;
     height: 300px;
     width: 100%;  
+    overflow: hidden;
 }
 
 .img-values {
     background: url("../images/our-values.jpg") center center / cover no-repeat;
     height: 300px;
     width: 100%;  
+    overflow: hidden;
 }
 
 .img-mission {
     background: url("../images/our-mission.jpg") center center / cover no-repeat;
     height: 300px;
     width: 100%;  
+    overflow: hidden;
 }
 
 .shadow {
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+
 
 /* Services */
 
@@ -279,6 +284,58 @@ video {
     height: 600px;
 }
 
+.box-left {
+    float: left;
+    width: 50%;
+}
+
+.box-right {
+    float: right;
+    width: 50%;
+}
+
+.box-right h3 {
+    
+    font-weight: bold;
+    margin: 5px
+}
+
+.box-right h2{
+    
+    font-weight: bold;
+    margin: 20px 5px 20px 5px
+}
+
+.contact-info {
+    height: 300px;
+    clear: both;
+    font-size: 120%;
+    margin: 100px 0 0 50px;  
+    width: 30%; 
+    text-align: center;
+    line-height: 20px;
+    padding: 8px;
+}
+
+.contact-img {
+    background: url("../images/girl-phone.jpg") center center / cover no-repeat;
+    height: 500px;
+    width: 50%;  
+    overflow: hidden;
+    float: right;
+}
+
+.lowercase {
+    text-transform: lowercase;
+    font-weight: normal;
+}
+
+hr {
+    border-top: 3px solid #6E3521;
+    width: 100%;
+    margin: 10px 0;
+}
+
 /* Footer */
 
 footer{
@@ -296,12 +353,19 @@ footer{
 .social i{
     font-size: 200%;
     color: #f1f1f1;
-    margin: 10px 20px;
+    margin: 10px 40px;
    }
 
 footer p {
     font-size: 120%;
     margin-top: 1%;
+}
+
+/* map */
+
+#map {
+    margin-top: 30px;
+    border: none;
 }
 
 /* Media queries */
