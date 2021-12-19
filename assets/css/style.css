@@ -14,7 +14,14 @@ body {
     background-color: #FFF6F8;  
 }
 
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
 
+    
+}
 
 /* headings */
 
@@ -401,7 +408,7 @@ footer p {
 }
 
 .quote-form {
-    margin: 150px 10% 0 0;
+    margin: 100px 5% 0 0;
     color: #f1f1f1;
     background-color: rgba(0,0,0, .7);
     max-width: 600px;
@@ -427,7 +434,7 @@ footer p {
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid #f1f1f1;
+    border: 2px solid #eccece;
     border-radius: 2px;
 }
 
@@ -441,7 +448,7 @@ footer p {
     padding: 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
+    background-color: #bd1736;
     color: #fafafa;
     display: block;
     margin: 0 auto;
@@ -450,7 +457,7 @@ footer p {
 
 .send-button:hover {
     background-color: #fafafa;
-    color: #f16c6b;
+    color: #bd1736;
 }
 
 legend {
