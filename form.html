@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Bike Express - ultra fast and eco-friendly parcel delivering services in Dublin, offering wide range of delivery options to suit your needs.">
+    <meta name="keywords" content="courier, parcels, fast delivery, post, Dublin, bike ">
+    <meta name="author" content="Mr. Pete">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Bike Express</title>
+</head>
+
+<body>
+    <header id="home">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">
+                <a href="index.html">
+                    <img src="assets/images/bicycle.png" alt="Bike Express logo, a bicycle in motion">
+                    Bike Express
+                </a>
+            </label>
+            <ul id="menu">
+                <li>
+                    <a href="index.html" aria-label="Go to the top of the page">Home</a>
+                </li>
+                <li>
+                    <a href="index.html#about" aria-label="Go to the about us section">About Us</a>
+                </li>
+                <li>
+                    <a href="index.html#services" aria-label="Go to the bike express services section">Our Services</a>
+                </li>
+                <li>
+                    <a href="index.html#contact" aria-label="Go to the contact information section">Contact</a>
+                </li>
+                <li>
+                    <a href="gallery.html" aria-label="Go to the gallery">Gallery</a>
+                </li>
+                <li>
+                    <a href="form.html" class="active" aria-label="Go to the get a quote section">Get a Quote</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="form">
+        <form class="quote-form" method="POST" action="https://form.bikeexpress.com/">
+
+            <h2>Get a Quote Now! <i class="fas fa-box-open"></i> </h2>
+
+            <fieldset>
+                <legend>Your details:</legend>
+                <label for="fname">First Name</label>
+                <input id="fname" class="text-input" type="text" name="first_name" placeholder="Your name..." required />
+                <label for="lname">Last Name</label>
+                <input id="lname" class="text-input" type="text" name="last_name" placeholder="Your last name..."required />
+                <label for="email">Email Address</label>
+                <input id="email" class="text-input" type="email" name="email_address" placeholder="Your email..."required />
+                <label for="pickup">Collection Address</label>
+                <input id="pickup" class="text-input" type="text" name="pickup_street"  placeholder="Pick up street..." required />
+                <label for="district">District</label>
+                <select id="district" name="district" required>
+                    <option value="D1">Dublin 1</option>
+                    <option value="D2">Dublin 2</option>
+                    <option value="D3">Dublin 3</option>
+                    <option value="D4">Dublin 4, Dun Laoghaire Rathdown</option>
+                    <option value="D5">Dublin 5 </option>
+                    <option value="D6">Dublin 6, Dún Laoghaire Rathdown</option>
+                    <option value="D7">Dublin 7</option>
+                    <option value="D6W">Dublin 6W, South Dublin</option>
+                    <option value="D8">Dublin 8</option>
+                    <option value="D9">Dublin 9</option>
+                    <option value="D10">Dublin 10</option>
+                    <option value="D11">Dublin 11, Fingal </option>
+                    <option value="D12">Dublin 12</option>
+                    <option value="D13">Dublin 13, Fingal</option>
+                    <option value="D14">Dublin 14, Dún Laoghaire Rathdown</option>
+                    <option value="D15">Dublin 15, Fingal</option>
+                    <option value="D16">Dublin 16, Dun Laoghaire Rathdown</option>
+                    <option value="D17">Dublin 17, Fingal</option>
+                    <option value="D18">Dublin 18, Dún Laoghaire Rathdown</option>
+                    <option value="D20">Dublin 20</option>
+                    <option value="D22">Dublin 22</option>
+                    <option value="D24">Dublin 24</option>
+                </select>
+                <br>
+                <label for="date">Pick Up Date:</label>
+                <input id="date" type="date" name="pickup_date">
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Delivery details:</legend>
+                <label for="rec-name">Recipient Name</label>
+                <input id="rec-name" class="text-input" type="text" name="recipient_name" placeholder="Name or Company..." required />             
+                <label for="delivery-street">Delivery Street</label>
+                <input id="delivery-street" class="text-input" type="text" name="delivery_street" placeholder="Drop off street..." required />
+                <label for="delivery-district">District</label>
+                <select id="delivery-district" name="delivery_district" required>
+                    <option value="D1">Dublin 1</option>
+                    <option value="D2">Dublin 2</option>
+                    <option value="D3">Dublin 3</option>
+                    <option value="D4">Dublin 4, Dun Laoghaire Rathdown</option>
+                    <option value="D5">Dublin 5 </option>
+                    <option value="D6">Dublin 6, Dún Laoghaire Rathdown</option>
+                    <option value="D7">Dublin 7</option>
+                    <option value="D6W">Dublin 6W, South Dublin</option>
+                    <option value="D8">Dublin 8</option>
+                    <option value="D9">Dublin 9</option>
+                    <option value="D10">Dublin 10</option>
+                    <option value="D11">Dublin 11, Fingal </option>
+                    <option value="D12">Dublin 12</option>
+                    <option value="D13">Dublin 13, Fingal</option>
+                    <option value="D14">Dublin 14, Dún Laoghaire Rathdown</option>
+                    <option value="D15">Dublin 15, Fingal</option>
+                    <option value="D16">Dublin 16, Dun Laoghaire Rathdown</option>
+                    <option value="D17">Dublin 17, Fingal</option>
+                    <option value="D18">Dublin 18, Dún Laoghaire Rathdown</option>
+                    <option value="D20">Dublin 20</option>
+                    <option value="D22">Dublin 22</option>
+                    <option value="D24">Dublin 24</option>
+                </select>
+            </fieldset>   
+            <fieldset>
+                <legend>What type of delivery do you need?</legend>
+
+			<input id="1hour" name="service_type" value="1-hour" type="radio" required>
+			<label for="1hour">Ultra Fast 1 Hour</label>
+            <input id="same-day" name="service_type" value="same-day" type="radio" required>
+			<label for="same-day">Quick Same Day</label>
+            <input id="next-day" name="service_type" value="next-day" type="radio" required>
+			<label for="next-day">Fast Next Day</label>
+            <br>
+            <label for="weight">Parcel Weight (up to 25kg):</label>
+            <br>
+            <input id="weight" type="range" name="weight" min="0" max="25" oninput="this.nextElementSibling.value = this.value"> 
+            <output>0 kg</output>                    
+            </fieldset>
+
+
+
+            <input class="send-button" type="submit" value="Enquire Now!"/>
+
+        </form>
+    </section>
+    <footer>
+        <ul class="social">
+            <li><a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li><a href="https://www.twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+            </li>
+        </ul>
+        <p>Code with <i class="fas fa-heart"></i> by Mr.Pete</p>
+    </footer>
+
+    <!-- Font awesome script -->
+    <script src="https://kit.fontawesome.com/98b189feac.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
