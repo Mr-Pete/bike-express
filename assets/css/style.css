@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Nunito:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
 
-*{
-    margin:0;
-    padding:0;
-    border:0;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 body {
     font-family: Algreya, sans-serif;
     font-weight: 300;
-    color: black; 
-    background-color: #FFF6F8;  
+    color: black;
+    background-color: #FFF6F8;
 }
 
 .wrapper {
@@ -20,18 +20,20 @@ body {
     flex-wrap: wrap;
     align-items: center;
 
-    
+
 }
 
 /* headings */
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: Nunito, sans-serif;
     font-weight: 400;
     letter-spacing: 2px;
     color: black;
     text-transform: uppercase;
-} 
+}
 
 /* header */
 
@@ -60,7 +62,7 @@ nav li {
     line-height: 80px;
     margin: 0 5px;
 }
-   
+
 nav a {
     color: white;
     text-decoration: none;
@@ -118,39 +120,39 @@ video {
 }
 
 #hero-video video {
-   
-   width: 100wh;
-   height: 100vh;
-   position: relative;
-   overflow: hidden;
-   text-align: center;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-    
+
+    width: 100wh;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
-#cover-text h1 { 
+#cover-text h1 {
     color: #f1f1f1;
     font-weight: bold;
 }
 
-#cover-text h2 { 
+#cover-text h2 {
     color: #f1f1f1;
     font-weight: bold;
 }
 
-#cover-text {     
-        font-size: 200%;
-        text-transform: uppercase;
-        letter-spacing: 4px;
-        text-align: center;
-        justify-content: center;
-       
-        position: absolute;
-        left: 20px;
-        bottom: 50%;  
-        width: 50%;    
+#cover-text {
+    font-size: 200%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    justify-content: center;
+
+    position: absolute;
+    left: 20px;
+    bottom: 50%;
+    width: 50%;
 }
 
 /* About Us */
@@ -165,7 +167,7 @@ video {
 
 #about {
     height: 600px;
-    
+
 }
 
 #about h2 {
@@ -178,23 +180,26 @@ video {
 
 #about p {
     font-size: 120%;
-    padding: 0 8px 8px 8px;
+    padding: 0px 2px 8px 8px;
 }
 
 .about-left {
-    
+
     width: 33%;
     float: left;
+    padding-bottom: 5px;
 }
 
 .about-right {
     width: 33%;
     float: right;
+    padding-bottom: 5px;
 }
 
 .about-center {
     width: 33%;
     margin: 0 auto;
+    padding-bottom: 5px;
 }
 
 
@@ -203,20 +208,22 @@ video {
     float: right;
     line-height: 20px;
     clear: both;
+
 }
 
 .about-right-text {
     width: 60%;
     float: left;
     line-height: 20px;
-    clear: both;    
+    clear: both;
+
 }
 
 .about-center-text {
     width: 60%;
     line-height: 20px;
-    margin: 0 auto; 
-     
+    margin: 0 auto;
+
 }
 
 
@@ -224,21 +231,21 @@ video {
 .img-who {
     background: url("../images/who-we-are.jpg") center center / cover no-repeat;
     height: 300px;
-    width: 100%;  
+    width: 100%;
     overflow: hidden;
 }
 
 .img-values {
     background: url("../images/our-values.jpg") center center / cover no-repeat;
     height: 300px;
-    width: 100%;  
+    width: 100%;
     overflow: hidden;
 }
 
 .img-mission {
     background: url("../images/our-mission.jpg") center center / cover no-repeat;
     height: 300px;
-    width: 100%;  
+    width: 100%;
     overflow: hidden;
 }
 
@@ -256,22 +263,22 @@ video {
     background: url("../images/bike-bag.jpg") top center / cover no-repeat fixed;
     overflow: hidden;
     width: 100%;
-         
+
 }
 
 #services h1 {
     color: #f1f1f1;
-    background-color: rgba(0,0,0, .7); 
+    background-color: rgba(0, 0, 0, .7);
 
 }
 
 #services div {
     color: #f1f1f1;
-    background-color: rgba(0,0,0, .7); 
+    background-color: rgba(0, 0, 0, .7);
     width: 25%;
     height: 600px;
     float: left;
-    padding: 60px 0 0 10px;
+    padding: 60px 0 10px 10px;
     text-align: center;
     box-sizing: border-box;
 }
@@ -290,7 +297,6 @@ video {
     width: 50%;
     margin: 0 auto;
     line-height: 20px;
-
 }
 
 /* Contact */
@@ -310,13 +316,13 @@ video {
 }
 
 .box-right h3 {
-    
+
     font-weight: bold;
     margin: 5px
 }
 
-.box-right h2{
-    
+.box-right h2 {
+
     font-weight: bold;
     margin: 20px 5px 20px 5px
 }
@@ -325,8 +331,8 @@ video {
     height: 300px;
     clear: both;
     font-size: 120%;
-    margin: 100px 0 0 50px;  
-    width: 30%; 
+    margin: 100px 0 0 50px;
+    width: 30%;
     text-align: center;
     line-height: 20px;
     padding: 8px;
@@ -335,7 +341,7 @@ video {
 .contact-img {
     background: url("../images/girl-phone.jpg") center center / cover no-repeat;
     height: 500px;
-    width: 50%;  
+    width: 50%;
     overflow: hidden;
     float: right;
 }
@@ -353,7 +359,7 @@ hr {
 
 /* Footer */
 
-footer{
+footer {
     height: 100px;
     background: #501122;
     text-align: center;
@@ -361,15 +367,15 @@ footer{
     color: #f1f1f1;
 }
 
-.social li{
+.social li {
     display: inline;
 }
 
-.social i{
+.social i {
     font-size: 200%;
     color: #f1f1f1;
     margin: 10px 40px;
-   }
+}
 
 footer p {
     font-size: 120%;
@@ -390,34 +396,34 @@ footer p {
     line-height: 0;
     column-count: 3;
     column-gap: 0px;
-    
+
 }
 
-#photo img{
+#photo img {
     width: 100%;
 }
 
 /* Form */
 
 .form {
-    
+
     background: url("../images/form-bg.jpg") top center / cover no-repeat;
     height: 100vh;
-    width: 100%;  
+    width: 100%;
     overflow: hidden;
 }
 
 .quote-form {
     margin: 100px 5% 0 0;
     color: #f1f1f1;
-    background-color: rgba(0,0,0, .7);
+    background-color: rgba(0, 0, 0, .7);
     max-width: 600px;
     position: absolute;
     left: 10%;
     padding: 30px;
 }
 
-.quote-form  h2 {
+.quote-form h2 {
     color: #f1f1f1;
     margin-bottom: 20px;
     font-weight: bold;
@@ -452,7 +458,7 @@ footer p {
     color: #fafafa;
     display: block;
     margin: 0 auto;
-    
+
 }
 
 .send-button:hover {
@@ -461,12 +467,15 @@ footer p {
 }
 
 legend {
-	font-size: 110%;
-	font-weight: bold;
-	margin: 20px 0 20px 0;
+    font-size: 110%;
+    font-weight: bold;
+    margin: 20px 0 20px 0;
 }
 
-input[type=date], input[type=range], input[type=radio], select {
+input[type=date],
+input[type=range],
+input[type=radio],
+select {
     height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid #f1f1f1;
@@ -477,24 +486,68 @@ input[type=date], input[type=range], input[type=radio], select {
 
 /* Media queries */
 
-@media (max-width: 985px) {
-    .logo {
-        padding-left: 20px;
-    }
+@media (max-width: 1600px) {
 
-    #menu {
+    .box-right h2,
+    h3 {
         font-size: 100%;
     }
 
-    #photo{
-        column-count: 2;
+    .head {
+        font-size: 200%;
+        padding: 15px 0;
+    }
+
+    .about-left .about-left-text {
+        width: 100%;
+        float: left;
+        padding-bottom: 5px;
+        clear: left;
+    }
+
+    .about-right .about-right-text {
+        width: 100%;
+        float: left;
+        padding-bottom: 5px;
+        clear: right;
+    }
+
+    .about-center .about-center-text {
+        width: 100%;
+        padding-bottom: 5px;
+    }
+
+    .contact-info {
+        width: 50%;
+    }
+    
+    .contact-img {
+        width: 60%;
+    }  
+
+}
+
+@media (max-width: 1170px) {
+    #services {
+        height: 1000px;
+    }
+
+    #services div {
+        width: 50%;            
+        height: 500px;
+        padding: 0;
+    }
+
+    #services p {
+        width: 50%;  
+        padding: 0;               
     }
 }
 
-@media (max-width: 850px) {
+@media  (max-width: 1125px) {
     .checkbtn {
         display: block;
-        
+
     }
 
     .logo {
@@ -509,30 +562,51 @@ input[type=date], input[type=range], input[type=radio], select {
         top: 80px;
         left: -100%;
         text-align: center;
-        transition: all .5s; 
+        transition: all .5s;
         z-index: 2;
     }
-    
+
     nav li {
         display: block;
     }
-   
+
     #menu {
         font-size: 90%;
     }
 
-    #menu a:hover, .active  {
+    #menu a:hover,
+    .active {
         background: none;
         color: #32DDCA;
     }
-    
-    #check:checked ~ ul {
+
+    #check:checked~ul {
         left: 0;
     }
 
-    #photo{
+    .logo {
+        padding-left: 20px;
+    }
+
+    #photo {
+        column-count: 2;
+    }
+
+     
+}
+
+@media (max-width: 850px) {
+   
+
+
+    #photo {
         column-count: 1;
     }
 
+    .social i {
+        font-size: 150%;
+        margin: 5px 10px;        
+    }
     
 }
+
