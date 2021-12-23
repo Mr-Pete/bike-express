@@ -686,4 +686,7 @@ select {
         margin: 10px 20px;
     }
 
+    .logo {
+        font-size: 120%;
+    }
 }
