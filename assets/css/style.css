@@ -14,7 +14,7 @@ body {
     background-color: #FFF6F8;
 }
 
-/* headings */
+/* Headings */
 
 h1,
 h2,
@@ -26,14 +26,14 @@ h3 {
     text-transform: uppercase;
 }
 
-/* header */
+/* Header */
 
 header {
     background-color: #501122;
     letter-spacing: 1px;
 }
 
-/* navigation and logo */
+/* Navigation and Logo */
 
 nav {
     font-size: 120%;
@@ -372,7 +372,7 @@ footer p {
 
 .fab:hover {
     transform: scale(1.5);
-}    
+}
 
 /* Map */
 
@@ -476,6 +476,8 @@ select {
 
 /* Media queries */
 
+/* For large to medium screens */
+
 @media (max-width: 1600px) {
 
     .box-right h2,
@@ -510,10 +512,10 @@ select {
     .contact-info {
         width: 50%;
     }
-    
+
     .contact-img {
         width: 60%;
-    }  
+    }
 
     .form {
         height: 1200px;
@@ -521,29 +523,32 @@ select {
 
 }
 
+/* For medium screens */
+
 @media (max-width: 1170px) {
     #services {
         height: 1000px;
     }
 
     #services div {
-        width: 50%;            
+        width: 50%;
         height: 500px;
         padding: 0;
     }
 
     #services p {
-        width: 50%;  
-        padding: 0;               
+        width: 50%;
+        padding: 0;
     }
 }
 
-@media  (max-width: 1125px) {
+@media (max-width: 1125px) {
 
-    header, nav {
-       position: fixed; 
-       z-index: 3;
-       background-color: #501122;
+    header,
+    nav {
+        position: fixed;
+        z-index: 3;
+        background-color: #501122;
     }
 
     .checkbtn {
@@ -598,25 +603,25 @@ select {
         width: 40%;
         top: 30%;
     }
-    
-    
-    footer > p {
-        font-size: 100%; 
-             
+
+
+    footer>p {
+        font-size: 100%;
+
     }
-     
-    
+
+
 }
 
+/* For small screens */
+
 @media (max-width: 850px) {
-   
+
 
     #photo {
         column-count: 1;
     }
 
-   
-    
     #cover-text {
         font-size: 140%;
         left: 10px;
@@ -629,45 +634,45 @@ select {
     }
 
     #services div {
-        width: 100%;            
-        height: 425px;           
+        width: 100%;
+        height: 425px;
     }
 
     #services p {
-        width: 70%;                         
+        width: 70%;
     }
 
     .contact-info {
         width: 90%;
         margin-left: 10px;
-        font-size: 100%;         
+        font-size: 100%;
     }
-    
+
     .contact-img {
         width: 95%;
-        
-    } 
+
+    }
 
     #about {
         height: 1550px;
-        
+
     }
-        
+
     .about-left {
 
         width: 100%;
         clear: right;
     }
-    
+
     .about-right {
         width: 100%;
         clear: left;
-        
+
     }
-    
+
     .about-center {
-        width: 100%;  
-        clear: both;   
+        width: 100%;
+        clear: both;
         margin-bottom: 0;
         padding-bottom: 0;
     }
@@ -675,11 +680,10 @@ select {
     .form {
         height: 1300px;
     }
-         
+
     .social i {
         font-size: 150%;
         margin: 10px 20px;
     }
 
 }
-
