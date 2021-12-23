@@ -14,7 +14,6 @@ body {
     background-color: #FFF6F8;
 }
 
-
 /* headings */
 
 h1,
@@ -33,7 +32,6 @@ header {
     background-color: #501122;
     letter-spacing: 1px;
 }
-
 
 /* navigation and logo */
 
@@ -194,7 +192,6 @@ video {
     padding-bottom: 5px;
 }
 
-
 .about-left-text {
     width: 60%;
     float: right;
@@ -217,7 +214,6 @@ video {
     margin: 0 auto;
 
 }
-
 
 
 .img-who {
@@ -245,7 +241,6 @@ video {
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 
 
 /* Services */
@@ -377,6 +372,7 @@ footer p {
 
 .fab:hover {
     transform: scale(1.5);
+}    
 
 /* Map */
 
@@ -429,7 +425,6 @@ footer p {
 }
 
 
-
 .text-input {
     background: transparent;
     color: #f1f1f1;
@@ -477,7 +472,6 @@ select {
     border: 1px solid #f1f1f1;
     border-radius: 2px;
 }
-
 
 
 /* Media queries */
@@ -601,7 +595,6 @@ select {
 
     #cover-text {
         font-size: 170%;
-        left: 0;
         width: 40%;
         top: 30%;
     }
@@ -618,7 +611,6 @@ select {
 @media (max-width: 850px) {
    
 
-
     #photo {
         column-count: 1;
     }
@@ -628,7 +620,7 @@ select {
     #cover-text {
         font-size: 140%;
         left: 10px;
-        top: 20%
+        top: 20%;
     }
 
     #services {
@@ -648,8 +640,7 @@ select {
     .contact-info {
         width: 90%;
         margin-left: 10px;
-        font-size: 100%;
-                
+        font-size: 100%;         
     }
     
     .contact-img {
@@ -689,5 +680,6 @@ select {
         font-size: 150%;
         margin: 10px 20px;
     }
+
 }
 
