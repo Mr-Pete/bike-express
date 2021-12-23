@@ -56,13 +56,17 @@
             <fieldset>
                 <legend>Your details:</legend>
                 <label for="fname">First Name</label>
-                <input id="fname" class="text-input" type="text" name="first_name" placeholder="Your name..." required />
+                <input id="fname" class="text-input" type="text" name="first_name" placeholder="Your name..."
+                    required />
                 <label for="lname">Last Name</label>
-                <input id="lname" class="text-input" type="text" name="last_name" placeholder="Your last name..." required />
+                <input id="lname" class="text-input" type="text" name="last_name" placeholder="Your last name..."
+                    required />
                 <label for="email">Email Address</label>
-                <input id="email" class="text-input" type="email" name="email_address" placeholder="Your email..." required />
+                <input id="email" class="text-input" type="email" name="email_address" placeholder="Your email..."
+                    required />
                 <label for="pickup">Collection Address</label>
-                <input id="pickup" class="text-input" type="text" name="pickup_street"  placeholder="Pick up street..." required />
+                <input id="pickup" class="text-input" type="text" name="pickup_street" placeholder="Pick up street..."
+                    required />
                 <label for="district">District</label>
                 <select id="district" name="district" required>
                     <option selected="selected" disabled="disabled">--Please choose a district--</option>
@@ -98,9 +102,11 @@
             <fieldset>
                 <legend>Delivery details:</legend>
                 <label for="rec-name">Recipient Name</label>
-                <input id="rec-name" class="text-input" type="text" name="recipient_name" placeholder="Name or Company..." required />             
+                <input id="rec-name" class="text-input" type="text" name="recipient_name"
+                    placeholder="Name or Company..." required />
                 <label for="delivery-street">Delivery Street</label>
-                <input id="delivery-street" class="text-input" type="text" name="delivery_street" placeholder="Drop off street..." required />
+                <input id="delivery-street" class="text-input" type="text" name="delivery_street"
+                    placeholder="Drop off street..." required />
                 <label for="delivery-district">District</label>
                 <select id="delivery-district" name="delivery_district" required>
                     <option selected="selected" disabled="disabled">--Please choose a district--</option>
@@ -127,35 +133,48 @@
                     <option value="D22">Dublin 22</option>
                     <option value="D24">Dublin 24</option>
                 </select>
-            </fieldset>   
+            </fieldset>
             <fieldset>
                 <legend>What type of delivery do you need?</legend>
 
-			<input id="1hour" name="service_type" value="1-hour" type="radio" required>
-			<label for="1hour">Ultra Fast 1 Hour</label>
-            <input id="same-day" name="service_type" value="same-day" type="radio" required>
-			<label for="same-day">Quick Same Day</label>
-            <input id="next-day" name="service_type" value="next-day" type="radio" required>
-			<label for="next-day">Fast Next Day</label>
-            <br>
-            <label for="weight">Parcel Weight (up to 25kg):</label>
-            <br>
-            <input id="weight" type="range" name="weight" min="0" max="25" oninput="this.nextElementSibling.value = this.value"> 
-            <output>0 kg</output>                    
+                <input id="1hour" name="service_type" value="1-hour" type="radio" required>
+                <label for="1hour">Ultra Fast 1 Hour</label>
+                <input id="same-day" name="service_type" value="same-day" type="radio" required>
+                <label for="same-day">Quick Same Day</label>
+                <input id="next-day" name="service_type" value="next-day" type="radio" required>
+                <label for="next-day">Fast Next Day</label>
+                <br>
+                <label for="weight">Parcel Weight (up to 25kg):</label>
+                <br>
+                <input id="weight" type="range" name="weight" min="0" max="25"
+                    oninput="this.nextElementSibling.value = this.value">
+                <output>0 kg</output>
             </fieldset>
 
 
 
-            <input class="send-button shadow" type="submit" value="Enquire Now!"/>
+            <input class="send-button shadow" type="submit" value="Enquire Now!" />
 
         </form>
     </section>
     <footer>
         <ul class="social">
-            <li><a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Find us on Facebook, link opens in a new tab><i class="fab fa-facebook-f" ></i></a></li>
-            <li><a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Find us on Twitter, link opens in a new tab><i class="fab fa-twitter" ></i></a></li>
-            <li><a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="Find us on YouTube, link opens in a new tab><i class="fab fa-youtube" ></i></a></li>
-            <li><a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Find us on Instagram, link opens in a new tab><i class="fab fa-instagram" ></i></a></li>
+            <li><a href="https://www.facebook.com" target="_blank" rel="noopener"
+                    aria-label="Find us on Facebook, link opens in a new tab">
+                    <i aria-hidden="true" class="fab fa-facebook-f" title="Facebook"></i></a>
+            </li>
+            <li><a href="https://www.twitter.com" target="_blank" rel="noopener"
+                    aria-label="Find us on Twitter, link opens in a new tab">
+                    <i aria-hidden="true" class="fab fa-twitter" title="Twitter"></i></a>
+            </li>
+            <li><a href="https://www.youtube.com" target="_blank" rel="noopener"
+                    aria-label="Find us on YouTube, link opens in a new tab">
+                    <i aria-hidden="true" class="fab fa-youtube" title="YouTube"></i></a>
+            </li>
+            <li><a href="https://www.instagram.com" target="_blank" rel="noopener"
+                    aria-label="Find us on Instagram, link opens in a new tab">
+                    <i aria-hidden="true" class="fab fa-instagram" title="Instagram"></i></a>
+            </li>
         </ul>
         <p>Code with <i class="fas fa-heart"></i> by Mr.Pete</p>
     </footer>
