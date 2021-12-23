@@ -103,6 +103,7 @@
                 <input id="delivery-street" class="text-input" type="text" name="delivery_street" placeholder="Drop off street..." required />
                 <label for="delivery-district">District</label>
                 <select id="delivery-district" name="delivery_district" required>
+                    <option selected="selected" disabled="disabled">--Please choose a district--</option>
                     <option value="D1">Dublin 1</option>
                     <option value="D2">Dublin 2</option>
                     <option value="D3">Dublin 3</option>
@@ -151,12 +152,10 @@
     </section>
     <footer>
         <ul class="social">
-            <li><a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
-            </li>
-            <li><a href="https://www.twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="https://www.youtube.com" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a></li>
-            <li><a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
-            </li>
+            <li><a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Find us on Facebook, link opens in a new tab><i class="fab fa-facebook-f" ></i></a></li>
+            <li><a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Find us on Twitter, link opens in a new tab><i class="fab fa-twitter" ></i></a></li>
+            <li><a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="Find us on YouTube, link opens in a new tab><i class="fab fa-youtube" ></i></a></li>
+            <li><a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Find us on Instagram, link opens in a new tab><i class="fab fa-instagram" ></i></a></li>
         </ul>
         <p>Code with <i class="fas fa-heart"></i> by Mr.Pete</p>
     </footer>
