@@ -621,6 +621,7 @@ select {
         font-size: 140%;
         left: 10px;
         top: 20%;
+        text-align: left;
     }
 
     #services {
@@ -633,8 +634,7 @@ select {
     }
 
     #services p {
-        width: 70%;  
-                     
+        width: 70%;                         
     }
 
     .contact-info {
