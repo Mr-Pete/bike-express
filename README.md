@@ -2,15 +2,15 @@
 
 ## Welcome to the site of the best courier services in Dublin 
 
-Bike Express site helps to connect best bike courier in Dublin with a people looking for a fast parcel delivery at the reasonable pricing. This site will advertise and promote eco friendly way of delivering goods without compromising quality of services. Site will be useful to Dublin companies and individuals looking to find ways to deliver their parcel within same day or same hour.
+Bike Express site helps to connect best bike courier in Dublin with a people looking for a fast parcel delivery at the best pricing. This site will advertise and promote eco friendly way of delivering goods without compromising quality of services. Site will be useful to Dublin companies and individuals looking to find better ways to deliver their parcel within same day or same hour.
 
 ![screenshot](assets/images/responsivnes.png "Screenshot")
 
 
 ## Features
 
-Bike Express site have a number of features to help demonstrate a uniqueness of services provide, enable a quick contact detail and obtain a quote for the required services.
-
+Bike Express site have a number of features to help demonstrate a uniqueness of services provided, provides a quick contact detail and possibility to obtain a quote for the required services.
+ 
 #### 1. Navigation Bar    
   * Navigation Bar provides links to the all sections on the main page - About Us, Our Services, Contact as well as Gallery page and Get a Quotation page.
   * Navigation Bar remains the same across all the pages to allow easy navigation.
