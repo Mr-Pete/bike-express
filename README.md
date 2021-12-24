@@ -51,6 +51,7 @@ Bike Express site have a number of features to help demonstrate a uniqueness of 
 
 #### 8. Get a Quote 
   * This section will allow customer to send a quote for the services required by filling all the personal details as well as delivery destination and preferred type of services.
+  
   ![get a quote screenshot](assets/images/quote-screenshot.png "Get a Quote Screenshot")
 
 ## Testing 
